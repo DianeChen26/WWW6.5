@@ -22,4 +22,4 @@ contract PollStation{
   function getvote (string memory _CandidateNames) public view returns (uint256) {
     return  VoteCount[_CandidateNames];
     }
-    
+}
